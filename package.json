@@ -44,5 +44,8 @@
   "repository": {
     "type": "git",
     "url": "git remote add origin https://github.com/dkazarov/gulp_ts.git"
+  },
+  "dependencies": {
+    "swiper": "^11.1.14"
   }
 }
