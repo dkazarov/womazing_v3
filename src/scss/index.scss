@@ -1,0 +1,21 @@
+@import 'normalize';
+@import 'mini-reset';
+@import 'vars';
+@import 'global';
+@import 'fonts';
+@import 'header';
+@import 'footer';
+
+
+//Vendor
+
+
+
+// Presets
+
+@import './scss-components/burger';
+@import './scss-components/presets';
+
+//Media
+
+@import './media/media_header';
