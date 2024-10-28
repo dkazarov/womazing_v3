@@ -1,0 +1,50 @@
+.hero {
+	position: relative;
+}
+.hero__inner {
+}
+.hero__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 585px;
+	overflow: hidden;
+	padding-top: 145px;
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.hero__slide-title {
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 110%;
+	letter-spacing: 0.021em;
+	margin-bottom: 45px;
+	text-align: left;
+}
+.hero__slide-text {
+	font-size: 20px;
+	margin-bottom: 52px;
+	text-align: right;
+	overflow: hidden;
+}
+.hero__slide-text-inner {
+	max-width: 385px;
+}
+.btn__inner {
+	text-align: right;
+}
+
+// Pagination Swiper
+.swiper-pagination {
+	position: absolute;
+	bottom: 155px !important;
+	left: -230px !important;
+}
+.swiper-pagination-bullet {
+	width: 30px;
+	height: 4px;
+	background: #000;
+	border-radius: 0;
+}

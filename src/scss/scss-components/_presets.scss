@@ -1,7 +1,11 @@
-.btn-full {
-  
+.btn--full {
+	display: inline-block;
+	padding: 22px 51px;
+	text-align: center;
+	max-width: 250px;
+	background-color: $accent-color;
+	color: $light-text-color;
 }
 
 .btn--transparent {
-
 }
