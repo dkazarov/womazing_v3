@@ -10,6 +10,11 @@ body {
 	line-height: 140%;
 	letter-spacing: 0.02em;
 }
+
+a {
+	color: $main-text-color;
+}
+
 .wrapper {
 	overflow: hidden;
 	display: flex;

@@ -1,13 +1,39 @@
 .header {
-	&__inner {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 0 20px;
-		height: 100px;
-		width: 100%;
-		background-color: cornflowerblue;
-	}
+}
+.nav__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 51px;
+	padding-bottom: 39px;
+}
+.logo {
+	margin-right: 10px;
+}
+.logo__img {
+}
+.nav {
+}
+.nav__list {
+	display: flex;
+	align-items: center;
+	gap: 0 45px;
+}
+.nav__item {
+}
+.nav__link {
+	font-weight: 500;
+	font-size: 15px;
+}
+.action {
+	display: flex;
+	align-items: center;
+}
+.contact {
+	font-size: 15px;
+}
+.cart {
+	margin-left: 67px;
 }
 
 .burger {
