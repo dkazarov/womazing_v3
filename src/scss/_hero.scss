@@ -9,7 +9,7 @@
 	justify-content: space-between;
 	max-width: 585px;
 	overflow: hidden;
-	padding-top: 145px;
+	padding-top: 150px;
 }
 .swiper-wrapper {
 }
@@ -28,12 +28,40 @@
 	margin-bottom: 52px;
 	text-align: right;
 	overflow: hidden;
+	line-height: 140%;
 }
 .hero__slide-text-inner {
 	max-width: 385px;
 }
 .btn__inner {
+	position: relative;
 	text-align: right;
+	transition: all 0.2s ease-in-out;
+	margin-right: 1px;
+}
+
+.btn--full.btn--arrow {
+	&::before {
+		content: '';
+		position: absolute;
+		width: 67px;
+		height: 68px;
+		top: 0;
+		left: 74px;
+		background-image: url('../img/arrow.svg');
+		border: 1px solid transparent;
+		transition: all 0.2s ease-in-out;
+	}
+
+	&:hover::before {
+		border: 1px solid $action-color;
+		transition: all 0.2s ease-in-out;
+	}
+}
+
+.btn--full.btn--arrow:hover {
+	background-color: $action-color;
+	transition: all 0.2s ease-in-out;
 }
 
 // Pagination Swiper

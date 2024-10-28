@@ -8,9 +8,9 @@ const heroTextSlider = () => {
 
 		loop: true,
 
-		autoplay: {
-			delay: 5000,
-		},
+		// autoplay: {
+		// 	delay: 5000,
+		// },
 
 		pagination: {
 			el: '.swiper-pagination',
