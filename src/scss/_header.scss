@@ -1,5 +1,17 @@
 .header {
+	position: relative;
 	height: 100vh;
+
+	&::before {
+		content: '';
+		position: absolute;
+		right: 151px;
+		top: 0;
+		width: 705px;
+		height: 826px;
+		background-color: $bg-color;
+		z-index: -1;
+	}
 }
 .nav__inner {
 	display: flex;
