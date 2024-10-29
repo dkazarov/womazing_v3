@@ -2,6 +2,8 @@
 	position: relative;
 }
 .hero__inner {
+	display: flex;
+	justify-content: space-between;
 }
 .hero__content {
 	display: flex;
@@ -10,10 +12,6 @@
 	max-width: 585px;
 	overflow: hidden;
 	padding-top: 150px;
-}
-.swiper-wrapper {
-}
-.swiper-slide {
 }
 .hero__slide-title {
 	font-weight: 500;
@@ -75,4 +73,16 @@
 	height: 4px;
 	background: #000;
 	border-radius: 0;
+}
+
+// Slider right
+.hero__img {
+	overflow: hidden;
+}
+.swiper-slide.hero__slide {
+	margin-left: 24px;
+}
+.hero__img {
+	max-width: 434px;
+	max-height: 652px;
 }
